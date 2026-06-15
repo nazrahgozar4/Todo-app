@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo-app</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    
+    <div class="container">
+        <h1>Todo List</h1>
+        <div class="input-area">
+            <label for="addTask">Tasks</label>
+        <input  id="addTask" type="text" placeholder="your task" >
+        <label for="categoryInput">Category</label>
+        <select  id="categoryInput" >
+            <option>Work</option>
+            <option>Home</option>
+            <option>Urgent</option>
+            <option>Health</option>
+        </select>
+        <label for="dateInput">Date</label>
+        <input type="date" id="dateInput">        
+        <button onclick="addTask()">Add</button>
+        </div>
+        <ul id="taskList">
+        </ul>
+    </div>
+
+
+    <script src="js/script.js">
+
+    </script>
+</body>
+</html>
